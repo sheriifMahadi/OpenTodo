@@ -1,4 +1,5 @@
 # OpenTodo
+ [Live Website](https://open-todo.surge.sh/)
 This is my solution to the Odin Project todolist app exercise. This app is built using HTML, CSS, and JavaScript and bundled with webpack
 * HTML
 * CSS 

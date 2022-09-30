@@ -1,0 +1,80 @@
+
+.all-projects{
+    margin: 20px 0;
+    text-align: center;
+    height: 100vh;
+    /* padding: 20px 0; */
+}
+
+.default-project, .custom {
+    margin: 10px 20px ;
+    padding: 10px 0px;
+    font-size: 30px;
+    background-color: rgb(255, 167, 4);
+}
+
+.project:hover {
+    cursor: pointer;
+}
+.close {
+    display: none;
+    
+}
+.todo_upper {
+    background-color: rgb(245, 245, 245);
+    font-size: 18px ;
+    padding: 10px 10px;
+    margin: 10px 20px ;
+    text-align: left;
+}
+.todo_upper > div {
+    padding-bottom: 10px;
+}
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgba(255, 167, 4, 0.1);
+
+}
+.due {
+    background-color: rgba(255, 167, 4, 0.1);
+
+}
+.btns{ 
+    font-weight: 100;
+    float: right;
+    padding-right: 5px;
+    /* justify-content: end; */
+}
+
+.btns > p {
+    display: inline;
+    width: 90px;
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.btns > p:hover, .btns > p:active{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.update {
+    /* background-color: green; */
+    color: green;
+}
+.delete {
+    /* background-color: red; */
+    color: red;
+}
+
+.del_proj{ 
+        font-weight: 100;
+        float: right;
+        padding-right: 5px;
+        font-size: 15px;
+        /* justify-content: end; */
+
+}

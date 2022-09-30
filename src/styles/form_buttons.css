@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-btns {
+    text-align: center;
+}
+.not-visible {
+    display: none;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.forms, .todo-update{
+    text-align: center;
+    padding-top: 20px;
+}
+.project-add {
+    /* display: none; */
+}
+label {
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin: 4px 0;
+}
+
+#project_title, #todo_title, #todo_title_update{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(241, 238, 238);
+    border-style:groove;
+    width: 300px;
+    height: 35px;
+    border-width: thin;    
+}
+
+#project-add-btn, #todo-add-btn, #todo-add-btn-update{
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 167, 4);
+    border: none;
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#project-add-btn:hover,  #todo-add-btn:hover, #todo-add-btn-update:hover{
+    background-color: rgb(223, 151, 19);
+    cursor: pointer;
+    
+}
+
+#project-add-btn:active,  #todo-add-btn:active, #todo-add-btn-update:active{
+    background-color: rgb(223, 151, 19);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    /* opacity: 0.4; */
+}
+.addbtn-div, .addbtn-div-update{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.todo-add {
+    margin-top: 20px;
+}
+#todo_title{
+    margin-bottom: 10px;
+}
+#todo-desc, #todo_desc_update{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(241, 238, 238);
+    border-style:groove;
+    width: 300px;
+    height: 80px;
+    border-width: thin; 
+}
+
+
+#project--add-btn, #todo--add-btn{
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 167, 4);
+    border: none;
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    color: orange;
+}
+#project--add-btn:hover, #todo--add-btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#project--add-btn:active, #todo--add-btn:active{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+}
